@@ -59,6 +59,5 @@
     - name: Run Docker container
       command: >
         docker run -d --name my-python-app-container
-        --env-file /home/ubuntu/app.env
         -p 80:8080
         my-python-app
