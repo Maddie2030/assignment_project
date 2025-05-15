@@ -49,9 +49,10 @@
         force: yes
 
     - name: Build Docker image
-      command: >
-        docker build -t my-python-app .
+      command:
         sudo usermod -aG docker ubuntu
+      command:
+        docker build -t my-python-app .
       args:
         chdir: /home/ubuntu/app
 
