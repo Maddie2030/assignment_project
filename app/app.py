@@ -12,7 +12,9 @@ def hello_world():
     This function is called when someone accesses the root URL.
     It returns a simple HTML string to be displayed in the browser.
     """
-    return '<p>Hello, World!</p>'
+    return '<p>Hello, World! ...............' \
+    '..................................' \
+    '.................................</p>'
 
 
 if __name__ == '__main__':
